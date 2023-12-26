@@ -1,0 +1,99 @@
+{
+    "header": {
+        "name": "Federico Belotti",
+        "role": "Full-stack Developer",
+        "infos": [
+            {
+                "key": "email",
+                "value": "federico.belotti@outlook.com"
+            },
+            {
+                "key": "mobile",
+                "value": "+39 3313509614"
+            },
+            {
+                "key": "github",
+                "value": "github.com/belfed"
+            },
+            {
+                "key": "linkedin",
+                "value": "linkedin.com/in/belottifederico"
+            },
+            {
+                "key": "location",
+                "value": "Brescia, Italy"
+            }
+        ]
+    },
+    "skills": [
+        "JavaScript",
+        "C#",
+        "ABAP",
+        "SAP CAP",
+        "Node.js",
+        "Express",
+        "HTML",
+        "CSS",
+        "React",
+        "Redux",
+        "Prisma",
+        "Apollo Server",
+        "Apollo Client",
+        "GraphQL",
+        "REST",
+        "Git",
+        "VSCode",
+        "Visual Studio",
+        "Notion",
+        "Docker",
+        "PostgreSQL",
+        "SQL Server",
+        "MongoDB"
+    ],
+    "workExperience": [
+        {
+            "role": "Junior SAP Full-stack Developer",
+            "company": "Regesta Group",
+            "type": "Remote / Brescia, Italy",
+            "start": "2020",
+            "end": "Present",
+            "details": [
+                "Worked on several B2C projects for manufacturing companies developing and deploying customizations for each area of SAP, following consultants' business specifications and making improvements in business workflows by recognizing potential performance and redundancy issues in operations.",
+                "Developed and deployed integrations with external softwares.",
+                "Developed and maintained internal framework features to optimize recurring operations and help other developers to ship customizations faster.",
+                "Wrote detailed documentation for end users and developers about the developed internal framework features.",
+                "Supported new developers on everyday tasks and complex developments."
+            ]
+        },
+        {
+            "role": "ERP Consultant",
+            "company": "CSB Software & Solutions",
+            "type": "Brescia, Italy",
+            "start": "2016",
+            "end": "2020",
+            "details": [
+                "Worked on several B2C projects for wine-making companies, supporting end-users in the migration from old ERP to ours and with the analysis of new business processes.",
+                "Developed reports by extracting data from the ERP and then presenting it to the end-user.",
+                "Supported end-users integrating the ERP with external softwares through internal middlewares."
+            ]
+        },
+        {
+            "role": "MES Consultant",
+            "company": "GP Progetti",
+            "type": "Brescia, Italy",
+            "start": "2015",
+            "end": "2016",
+            "details": [
+                "Configured and installed over 100 workstations to be used along with workcenters in manufacturing companies, automatizing error-prone operations and reducing lead times."
+            ]
+        }
+    ],
+    "education": [
+        {
+            "name": "ITIS \"C. Beretta\" (Professional High School) - Computer Science and Telecommunications",
+            "location": "Brescia, Italy",
+            "start": 2010,
+            "end": 2015
+        }
+    ]
+}
