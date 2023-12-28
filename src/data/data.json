@@ -13,11 +13,11 @@
             },
             {
                 "key": "github",
-                "value": "github.com/belfed"
+                "value": "https://github.com/belfed"
             },
             {
                 "key": "linkedin",
-                "value": "linkedin.com/in/belottifederico"
+                "value": "https://www.linkedin.com/in/belottifederico/"
             },
             {
                 "key": "location",
@@ -54,37 +54,40 @@
         {
             "role": "Junior SAP Full-stack Developer",
             "company": "Regesta Group",
+            "website": "https://www.regestaitalia.eu/en/",
             "type": "Remote / Brescia, Italy",
             "start": "2020",
             "end": "Present",
             "details": [
                 "Worked on several B2C projects for manufacturing companies developing and deploying customizations for each area of SAP, following consultants' business specifications and making improvements in business workflows by recognizing potential performance and redundancy issues in operations.",
                 "Developed and deployed integrations with external softwares.",
-                "Developed and maintained internal framework features to optimize recurring operations and help other developers to ship customizations faster.",
+                "Developed and maintained internal framework features to optimize recurring operations and assist other developers to deliver customizations faster.",
                 "Wrote detailed documentation for end users and developers about the developed internal framework features.",
-                "Supported new developers on everyday tasks and complex developments."
+                "Provided support to new developers in their daily tasks and complex development assignments."
             ]
         },
         {
             "role": "ERP Consultant",
             "company": "CSB Software & Solutions",
+            "website": "https://www.csb.it/",
             "type": "Brescia, Italy",
             "start": "2016",
             "end": "2020",
             "details": [
-                "Worked on several B2C projects for wine-making companies, supporting end-users in the migration from old ERP to ours and with the analysis of new business processes.",
-                "Developed reports by extracting data from the ERP and then presenting it to the end-user.",
-                "Supported end-users integrating the ERP with external softwares through internal middlewares."
+                "Worked on several B2C projects for wine-making companies, supporting end-users in the migration from their old ERP to ours and in the analysis of new business processes.",
+                "Developed reports by extracting data from the ERP and presenting it to the end-user.",
+                "Assisted end-users integrating the ERP with external softwares through internal middlewares."
             ]
         },
         {
             "role": "MES Consultant",
             "company": "GP Progetti",
+            "website": "https://www.gpprogetti.com/",
             "type": "Brescia, Italy",
             "start": "2015",
             "end": "2016",
             "details": [
-                "Configured and installed over 100 workstations to be used along with workcenters in manufacturing companies, automatizing error-prone operations and reducing lead times."
+                "Configured and installed over 100 workstations to be used along with workcenters in manufacturing companies, automating error-prone operations and reducing lead times."
             ]
         }
     ],

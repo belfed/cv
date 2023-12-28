@@ -3,7 +3,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faAt, faPhone, faLocationDot } from "@fortawesome/free-solid-svg-icons";
 
-
 const Container = styled.div`
     display: flex;
     flex-direction: row;
@@ -20,6 +19,18 @@ const Info = styled.div`
     column-gap: 3px;
 `;
 
+const Link = styled.a`
+    color: inherit;
+    &:link,
+    &:visited {        
+        color: inherit;
+    }
+`;
+
+const formatUrl = (url) => {
+    return url.replace(/^(?:https?:\/\/)?(?:www\.)?/i, "").replace(/\/$/, "");
+}
+
 const Infos = ({ infos }) => {
     const [email, mobile, github, linkedin, location] = infos;
 
@@ -27,23 +38,23 @@ const Infos = ({ infos }) => {
         <Container>
             <Info>
                 <FontAwesomeIcon icon={faAt} />
-                <span>{email.value}</span>
+                <Link>{email.value}</Link>
             </Info>
             <Info>
                 <FontAwesomeIcon icon={faPhone} />
-                <span>{mobile.value}</span>
+                <Link>{mobile.value}</Link>
             </Info>
             <Info>
                 <FontAwesomeIcon icon={faGithub} />
-                <span>{github.value}</span>
+                <Link href={github.value}>{formatUrl(github.value)}</Link>
             </Info>
             <Info>
                 <FontAwesomeIcon icon={faLinkedin} />
-                <span>{linkedin.value}</span>
+                <Link href={linkedin.value}>{formatUrl(linkedin.value)}</Link>
             </Info>
             <Info>
                 <FontAwesomeIcon icon={faLocationDot} />
-                <span>{location.value}</span>
+                <Link>{location.value}</Link>
             </Info>              
         </Container>
     );

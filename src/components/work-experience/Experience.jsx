@@ -12,6 +12,10 @@ const Role = styled.span`
 
 const Period = Role;
 
+const Company = styled.a`
+    color: inherit;
+`;
+
 const Detail = styled.li`
     text-align: justify;
     hyphens: auto;
@@ -20,7 +24,11 @@ const Detail = styled.li`
 const Experience = ({ experience }) => {
     return (
         <Header>
-            <Role>{`${experience.role}, ${experience.company} (${experience.type})`}</Role>
+            <Role>
+                {`${experience.role}, `}
+                <Company href={experience.website}>{`${experience.company}`}</Company>
+                {` (${experience.type})`}
+            </Role>
             <Period>{`${experience.start} - ${experience.end}`}</Period>
             <ul>
                 {
